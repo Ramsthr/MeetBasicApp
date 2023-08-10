@@ -22,7 +22,7 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       title: 'FireMed',
       // theme: ThemeData(primarySwatch: Colors.red),
-      initialRoute: 'login',
+      initialRoute: 'splash',
       routes: {
         'splash': (context) => const Splash(),
         'locate': (context) => const LocateScreen(),
